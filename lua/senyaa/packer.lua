@@ -28,6 +28,9 @@ return require("packer").startup(function(use)
     use "nvim-treesitter/nvim-treesitter"
     use "p00f/nvim-ts-rainbow"
 
+    use "mfussenegger/nvim-dap"
+    use "rcarriga/nvim-dap-ui"
+
     use "lewis6991/gitsigns.nvim"
 
     use "windwp/nvim-autopairs"

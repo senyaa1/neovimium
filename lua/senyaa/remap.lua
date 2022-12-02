@@ -67,5 +67,15 @@ km.nnoremap("<leader>ls", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
 km.nnoremap("<leader>lq", "<cmd>lua vim.diagnostic.setloclist()<CR>")
 
 
+-- Debugging
+
+
+
+km.nnoremap("<leader>bb", "<cmd>lua require'dap'.toggle_breakpoint()<CR>")
+km.nnoremap("<leader>bc", "<cmd>lua require'dap'.continue()<CR>")
+
+km.nnoremap("<leader>bj", "<cmd>lua require'dap'.step_over()<CR>")
+km.nnoremap("<leader>bl", "<cmd>lua require'dap'.step_into()<CR>")
+km.nnoremap("<leader>bu", "<cmd>lua require('dapui').toggle()<CR>")
 
 
