@@ -37,8 +37,14 @@ return require("packer").startup(function(use)
 
     use 'numToStr/Comment.nvim'
 
+    use "lewis6991/impatient.nvim"
+
     use 'nvim-tree/nvim-tree.lua'
     use "nvim-telescope/telescope.nvim"
     use "noib3/nvim-cokeline"
     use "akinsho/toggleterm.nvim"
+
+    use "mbbill/undotree"
+    use "RRethy/vim-illuminate"
+    use "uga-rosa/ccc.nvim"
 end)

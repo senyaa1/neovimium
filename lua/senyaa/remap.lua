@@ -79,3 +79,14 @@ km.nnoremap("<leader>bl", "<cmd>lua require'dap'.step_into()<CR>")
 km.nnoremap("<leader>bu", "<cmd>lua require('dapui').toggle()<CR>")
 
 
+
+-- Undo tree
+
+km.nnoremap("<leader>u", "<cmd>UndotreeToggle<CR>")
+
+
+-- Color picker
+
+km.nnoremap("<leader>cp", "<cmd>CccPick<CR>")
+km.nnoremap("<leader>cc", "<cmd>CccHighlighterToggle<CR>")
+

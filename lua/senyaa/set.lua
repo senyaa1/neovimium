@@ -15,3 +15,5 @@ vim.opt.showmode = false
 vim.opt.wrap = false
 
 vim.opt.swapfile = false
+
+vim.opt.termguicolors = false
